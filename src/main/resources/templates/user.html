@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Manage User</title>
+  <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}"/>
+</head>
+<body>
+<div class="container-fluid text-center">
+  <h2>Manage Users !!!</h2>
+  <div>
+    <table>
+      <thead>
+      <tr>
+        <th>ID</th>
+        <th>E-MAIL</th>
+        <th>FIRST-NAME</th>
+        <th>LAST-NAME</th>
+        <th></th>
+      </tr>
+      </thead>
+      <tbody>
+      <th>[[${user.id}]]</th>
+      </tbody>
+    </table>
+  </div>
+</div>
+</body>
+</html>
